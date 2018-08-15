@@ -1,0 +1,7 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"FB messenger tests","Afetch data from dialogflow test","SUCCESS","2018-08-15T10:16:56.732+10:00[Australia/Sydney]","0.0","61.88"
+"FB messenger tests","Verify FAQ baggage test","SUCCESS","2018-08-15T10:17:59.481+10:00[Australia/Sydney]","0.0","0.74"
+"Second serenity test","This is test 4","SUCCESS","2018-08-15T10:18:04.668+10:00[Australia/Sydney]","0.0","0.36"
+"Second serenity test","This is test 3","SUCCESS","2018-08-15T10:18:05.027+10:00[Australia/Sydney]","0.0","0.46"
+"First serenity test","This is test 1","SUCCESS","2018-08-15T10:18:05.524+10:00[Australia/Sydney]","0.0","0.34"
+"First serenity test","This is test 2","SUCCESS","2018-08-15T10:18:05.866+10:00[Australia/Sydney]","0.0","0.45"

@@ -1,0 +1,6 @@
+utils/DateTimeFormat.class
+tests/testPackage1/FBMessengerTests.class
+tests/testPackage2/FirstSerenityTest.class
+tests/testPackage1/SecondSerenityTest.class
+steps/Steps/FBMessengerSteps.class
+steps/Steps/CountriesSearchSteps.class

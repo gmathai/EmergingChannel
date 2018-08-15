@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="tests.testPackage1.FBMessengerTests" skipped="0" tests="3" time="63.3" timestamp="2018-08-15 10:16:56"><testcase classname="tests.testPackage1.FBMessengerTests" name="Afetch data from dialogflow test"/><testcase classname="tests.testPackage1.FBMessengerTests" name="Verify FAQ baggage test"/><testcase classname="tests.testPackage1.FBMessengerTests" name="Verify get started test"><failure message="TC Failed" type="java.lang.AssertionError">TC Failed</failure><system-err>TC Failed
+steps.Steps.FBMessengerSteps.verifyGetStarted(FBMessengerSteps.java:86)
+tests.testPackage1.FBMessengerTests.verifyGetStartedTest(FBMessengerTests.java:57)
+</system-err></testcase></testsuite>

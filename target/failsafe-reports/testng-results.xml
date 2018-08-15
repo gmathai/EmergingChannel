@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="7" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="71241" started-at="2018-08-15T00:16:55Z" finished-at="2018-08-15T00:18:06Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="71241" started-at="2018-08-15T00:16:55Z" finished-at="2018-08-15T00:18:06Z">
+      <class name="tests.testPackage2.FirstSerenityTest">
+        <test-method status="PASS" signature="getAll2Test()" name="getAll2Test" duration-ms="797" started-at="2018-08-15T00:18:05Z" finished-at="2018-08-15T00:18:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAll2Test -->
+        <test-method status="PASS" signature="getAll1Test()" name="getAll1Test" duration-ms="343" started-at="2018-08-15T00:18:05Z" finished-at="2018-08-15T00:18:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAll1Test -->
+      </class> <!-- tests.testPackage2.FirstSerenityTest -->
+      <class name="tests.testPackage1.FBMessengerTests">
+        <test-method status="PASS" signature="afetchDataFromDialogflowTest()" name="afetchDataFromDialogflowTest" duration-ms="62307" started-at="2018-08-15T00:16:56Z" finished-at="2018-08-15T00:17:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afetchDataFromDialogflowTest -->
+        <test-method status="PASS" signature="verifyFAQBaggageTest()" name="verifyFAQBaggageTest" duration-ms="63909" started-at="2018-08-15T00:16:56Z" finished-at="2018-08-15T00:18:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFAQBaggageTest -->
+        <test-method status="FAIL" signature="verifyGetStartedTest()" name="verifyGetStartedTest" duration-ms="64554" started-at="2018-08-15T00:16:56Z" finished-at="2018-08-15T00:18:00Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[TC Failed]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: TC Failed
+at steps.Steps.FBMessengerSteps.verifyGetStarted(FBMessengerSteps.java:86)
+at tests.testPackage1.FBMessengerTests.verifyGetStartedTest(FBMessengerTests.java:57)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGetStartedTest -->
+      </class> <!-- tests.testPackage1.FBMessengerTests -->
+      <class name="tests.testPackage1.SecondSerenityTest">
+        <test-method status="PASS" signature="getAll2TestDemo()" name="getAll2TestDemo" duration-ms="358" started-at="2018-08-15T00:18:04Z" finished-at="2018-08-15T00:18:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAll2TestDemo -->
+        <test-method status="PASS" signature="getAll1Test()" name="getAll1Test" duration-ms="822" started-at="2018-08-15T00:18:04Z" finished-at="2018-08-15T00:18:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAll1Test -->
+      </class> <!-- tests.testPackage1.SecondSerenityTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
